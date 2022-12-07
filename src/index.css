@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    body{
+        font-family: 'Space Mono', monospace;
+    }
+    body{
+        @apply container bg-cyan-100 h-[100vh] flex flex-col items-center justify-center
+    }
+    .cyan-dark-grayish{
+       background-color:  hsl(172, 67%, 45%)
+    }
+    .cyan-dark-col{
+        color:  hsl(172, 67%, 45%)
+    }
+    .cyan-bg-col{
+        color:  hsl(183, 100%, 15%);
+    }
+    .cyan-darkBg{
+        background-color: hsl(183, 100%, 15%);
+    }
+    .lightgrayishcyan
+    {
+        background-color: hsl(189, 41%, 97%);
+        
+    }
+}
